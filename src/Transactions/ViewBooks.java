@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 import Domain.Book;
-import Domain.Persistence;
+
 @WebServlet("/books")
 public class ViewBooks extends HttpServlet {
 	private static final long serialVersionUID = 1L;

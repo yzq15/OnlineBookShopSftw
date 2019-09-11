@@ -1,7 +1,7 @@
 package Transactions;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +10,7 @@ import javax.servlet.http.*;
 import DataSource.BookFinder;
 import DataSource.BookGateway;
 import Domain.Book;
-import Domain.Persistence;
+
 import Domain.ShoppingCart;
 import Domain.User;
 
